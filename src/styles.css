@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    padding:0; margin:0;
+}
+@font-face {
+    src: url('../src/assets/font/nanumSquare.ttf');
+    font-family: 'nanum';
+}
+@font-face {
+    src: url('../src/assets/font/NanumPenScript-Regular.ttf');
+    font-family: 'nanum_pen';
+}
+html, body { height: 100%; }
+body { margin: 0;}
+body {
+    font-family: 'nanum' ,sans-serif;
+}
+.nanum_pen {
+    font-family: 'nanum_pen' , sans-serif;
+}
+.textHidden{
+    text-indent: -99999px;
+}
+li {
+    list-style: none;
+}
+.pointer {
+    cursor: pointer;
+}
+.wrap{
+    width:1440px;
+    margin:0 auto;
+}
+.innerWrap {
+    width:1200px;
+    margin:0 auto;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: bold;
+}
+.hidden {
+    display: none;
+}
+.underline {
+    text-decoration: underline;
+}
+.designA {
+    display: block;
+    width:30px;
+    height:10px;
+    background-color: #dd5e5e;
+}
